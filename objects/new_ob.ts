@@ -1,24 +1,24 @@
 // const car = {
-//     type:"Fiat", 
-//     model:"500", 
-//     color:"white"
+//   type:"Fiat", 
+//   model:"500", 
+//   color:"white"
 // };
 
 // const person = {};
 type Person = {
-    firstName: string;
-    lastName: string;
-    age: number;
-    eyeColor: string;
-    id: number;
+  firstName: string;
+  lastName: string;
+  age: number;
+  eyeColor: string;
+  id: number;
 };
 
 const person: Person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    eyeColor: "blue",
-    id: 222
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+  id: 222
 };
 
 
@@ -31,17 +31,17 @@ const person: Person = {
 // console.log(person);
 
 const personDetails = {
-    firstName: "John",
-    lastName : "Doe",
-    id       : 5566,
-    fullName : function() {
-        return this.firstName + " " + this.lastName;
-    },
-    car: {
-        type:"Fiat", 
-        model:"500", 
-        color:"white"
-    }
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+  return this.firstName + " " + this.lastName;
+  },
+  car: {
+    type: "Fiat", 
+    model: "500", 
+    color: "white"
+  }
 };
 
 console.log(personDetails.fullName().toUpperCase());

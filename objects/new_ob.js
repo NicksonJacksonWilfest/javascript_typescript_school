@@ -1,9 +1,9 @@
 const car = {
-    type: "Fiat", 
-    model: "500", 
-    color: "white"
+  type: "Fiat", 
+  model: "500", 
+  color: "white"
 }
-
+console.log(car)
 
 // const person = {};
 const person = new Object()
@@ -17,16 +17,16 @@ delete person.age
 console.log(person)
 
 const personParticular = {
-    firstName: "John",
-    lastName : "Doe",
-    id       : 5566,
-    fullName : function() {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
       return this.firstName + " " + this.lastName;
     },
-    car: {
-        type: "Fiat", 
-        model: "500", 
-        color: "white"
+  car: {
+  type: "Fiat", 
+  model: "500", 
+  color: "white"
     }
   }
 
@@ -44,9 +44,9 @@ personConstructor.fullName = function() {
 }
 
 personConstructor.car = {
-    type: "Fiat", 
-    model: "500", 
-    color: "white"
+  type: "Fiat", 
+  model: "500", 
+  color: "white"
 }
 
 const personArray = Object.values(personConstructor)
