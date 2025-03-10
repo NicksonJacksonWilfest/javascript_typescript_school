@@ -10,13 +10,13 @@ const Person = {
     schoolAddress: 'College of Business Education',
 };
 
-Person.id = 222;
+Person.id = 222
 delete Person.age
 const x = Person.age
-console.log('parentName' in Person);
+console.log('parentName' in Person)
 
-const age = 26;
-const newAge = age;
+const age = 26
+let newAge = age
 
-newAge = newAge + 1;
-console.log(age, newAge);
+newAge = newAge + 1
+console.log(age, newAge)

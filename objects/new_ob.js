@@ -4,6 +4,7 @@ const car = {
     color: "white"
 }
 
+
 // const person = {};
 const person = new Object()
 person.firstName = "John"
@@ -11,9 +12,9 @@ person.lastName = "Doe"
 person.age = 50
 person.eyeColor = "blue"
 person.id = 222
-// delete person.age;
+delete person.age
 
-// console.log(person);
+console.log(person)
 
 const personParticular = {
     firstName: "John",
@@ -29,7 +30,7 @@ const personParticular = {
     }
   }
 
-// console.log(personParticular);
+console.log(personParticular)
 
 
 const personConstructor = new Object()
@@ -48,9 +49,9 @@ personConstructor.car = {
     color: "white"
 }
 
-// const personArray = Object.values(personConstructor);
-// console.log(personArray);
+const personArray = Object.values(personConstructor)
+console.log(personArray)
 
-const personString = JSON.stringify(personConstructor);
+const personString = JSON.stringify(personConstructor)
 console.log(personString)
 
