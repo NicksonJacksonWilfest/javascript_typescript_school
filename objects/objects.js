@@ -1,6 +1,6 @@
 // Objects workout
 
-let Person = {
+const Person = {
     firstName: 'Nickson',
     surName: 'Jackson',
     age: '23',
@@ -12,11 +12,11 @@ let Person = {
 
 Person.id = 222;
 delete Person.age
-let x = Person.age
+const x = Person.age
 console.log('parentName' in Person);
 
-let age = 26;
-let newAge = age;
+const age = 26;
+const newAge = age;
 
 newAge = newAge + 1;
 console.log(age, newAge);
